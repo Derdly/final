@@ -1,0 +1,42 @@
+p {
+	font-family: Garamond, Verdana, serif;
+	font-size: 1.2em;
+	color: white;
+	width: 100%;
+	height: auto;
+}
+
+#box1{
+	border: 0px solid;
+	width: auto;
+	height: auto;
+	font-size: 20px;
+	background: #7DC8BE;
+	padding: 30px;
+
+}
+
+H1 {
+	font-family: Pacifico, Arial, sans-serif;
+	font-size: 4.5em;
+	color: #F7D665;
+	}
+	<style type="text/css">
+	  @font-face {
+	    font-family: 'sligoil';
+	    src: url('./fonts/Sligoil-Micro.woff') format('woff2'),
+	         url('./fonts/Sligoil-Micro.woffw') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	    body {padding:0;margin:0;background-color:#000000; font-family: 'sligoil';}
+	    h1 {font-family: 'sligoil'; color:#ffffff; font-weight:400;}
+
+	    .slidecontainer {width:100%; height:100vh; display:block;}
+	    .textslide {z-index:1; position:absolute; text-align:center; display: flex; justify-content: center; align-items: center; vertical-align:center; width:100%; height:100vh;}
+	    .videocontainer {width:100%; height: auto; float:left;display:block;position:absolute; z-index:-1;}
+	    .videocontainer video {width: 100%;  height: auto; object-fit:fill;}
+			.img {width: 100%;  height: auto; object-fit:fill;}
+	    </style>
